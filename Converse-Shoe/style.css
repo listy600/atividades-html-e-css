@@ -1,0 +1,111 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 800px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+h2 {
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sale {
+  font-weight: bold;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 2px;
+  background-color: #ff2f2f;
+  padding: 10px 15px;
+  position: absolute;
+  top: -5px;
+  left: -20px;
+}
+
+article {
+  border-top: 5px solid #000000;
+  border-left: 5px solid #000000;
+  border-right: 5px solid #000000;
+  border-bottom: 5px solid #000000;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.Price {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.Shipping {
+  font-size: 14px;
+  font-weight: bold;
+  color: #696969;
+  text-transform: Uppercase;
+  margin-bottom: 20px;
+}
+
+.Shoe-Colors {
+  height: 10px;
+  width: 10px;
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 7px 7px;
+  display: inline-block;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+ul {
+  margin: 10px 0;
+}
+
+li {
+  margin: 10px 0;
+  margin-left: 30px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+button {
+  text-decoration: none;
+  color: white;
+  border: none;
+  background-color: black;
+  text-transform: uppercase;
+  font-size: 20px;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+}
+
+.add-cart:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
